@@ -26,7 +26,7 @@ defmodule PhoenixHaml.Mixfile do
     [
       {:phoenix, github: "phoenixframework/phoenix"},
       {:cowboy, "~> 1.0.0", only: [:dev, :test]},
-      {:calliope, "~> 0.2.7"}
+      {:calliope, "~> 0.3.0" }
     ]
   end
 end
