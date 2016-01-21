@@ -17,6 +17,12 @@
      ```
   3. Use the `.html.haml` extensions for your templates.
 
+## Mix Tasks
+
+Create a resource with haml templates with the following mix task:
+
+    `mix phoenix.gen.haml User users name:string age:integer`
+
 ## Optional
 
 Add haml extension to Phoenix live reload in `config/dev.exs`
