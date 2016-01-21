@@ -21,7 +21,7 @@
 
 Create a resource with haml templates with the following mix task:
 
-    `mix phoenix.gen.haml User users name:string age:integer`
+    mix phoenix.gen.haml User users name:string age:integer
 
 ## Optional
 
